@@ -1,0 +1,42 @@
+.register-wrapper {
+    width: 320px;
+    position: absolute;
+    bottom: 60px;
+    left: 56px;
+}
+
+.register-wrapper .input-wrapper + .input-wrapper {
+    margin-top: 20px;
+}
+
+.register-wrapper .input-wrapper input {
+    width: 100%;
+    line-height: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background: transparent;
+}
+
+.register-wrapper .submit-wrapper {
+    margin-top: 30px;
+}
+
+.register-wrapper .submit-wrapper button {
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.register-wrapper .submit-wrapper a {
+    float: right;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 13px;
+}

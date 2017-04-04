@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moment</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/css/register.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/todo.css">
+</head>
+
+<body>
+    <div class="root">
+        <div class="refresh-icon">
+            <i class="fa fa-refresh fa-2x"></i>
+        </div>
+
+        <!--START 主页-->
+        <div class="bottom-wrapper" style="display: none" data-page-target="main">
+            <div class="center-wrapper">
+                <div class="time-wrapper">
+                    <span id="current-time">22:22</span>
+                </div>
+                <div class="greet-wrapper">
+                    <span id="greet">Good night</span><span>,</span>
+                    <span id="greet-name">Serena</span><span>.</span>
+                </div>
+                <div class="today-wrapper-unset">
+                    <div class="today-wrapper-unset-inner">
+                        <span class="today-focus">What's your main focus today?</span>
+                        <input type="text" class="today-input">
+                    </div>
+                </div>
+                <div class="today-wrapper" style="display: none">
+                    <span class="today">Today</span>
+                    <div class="user-input-remove">
+                        <span class="user-input">hello world</span>
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="slogan-wrapper">
+                    <span id="slogan">“The greatest mistake you can make in life is to be continually fearing you will make one.”</span>
+                </div>
+            </div>
+        </div>
+        <!--END 主页-->
+
+        <!--START 注册页-->
+        <div class="register-wrapper" style="display: none" data-page-target="register">
+            <div class="input-wrapper">
+                <input id="register-name" type="text" placeholder="用户名" />
+            </div>
+            <div class="input-wrapper">
+                <input id="register-password" type="password" placeholder="密码" />
+            </div>
+            <div class="submit-wrapper">
+                <button type="button" id="register-button">注册</button>
+                <a href="javascript:void(0)">已有账号,点击登录</a>
+            </div>
+        </div>
+        <!--END 注册页-->
+
+        <!--START 登录页-->
+        <div class="login-wrapper" style="display: none" data-page-target="login">
+            <div class="input-wrapper">
+                <input id="login-name" type="text" placeholder="用户名" />
+            </div>
+            <div class="input-wrapper">
+                <input id="login-password" type="password" placeholder="密码" />
+            </div>
+            <div class="submit-wrapper">
+                <button type="button" id="login-button">登录</button>
+                <a href="javascript:void(0)">还没有账号,点击注册</a>
+            </div>
+        </div>
+        <!--END 登录页-->
+
+        <!--START TODO页-->
+        <div class="todo-wrapper">
+            <div class="todo-header-wrapper">
+                <span class="count">0</span>&nbsp;<span>to do</span>
+            </div>
+            <div class="todo-list-wrapper">
+                <ul> </ul>
+            </div>
+            <div class="todo-input-wrapper">
+                <input id="newTodoInput" type="text" placeholder="New Todo" />
+            </div>
+        </div>
+        <!--END TODO页-->
+    </div>
+
+    <script src="./assets/javascript/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

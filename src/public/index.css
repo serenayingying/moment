@@ -1,0 +1,107 @@
+.root {
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(./assets/image/background00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;  
+}
+
+.refresh-icon {
+    background: rgba(16, 16, 16, 0.1);
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    cursor: pointer;
+}
+
+.bottom-wrapper{
+    position:absolute;
+    bottom: 0;
+    width:100%;
+}
+
+.center-wrapper{
+    color: white;
+    text-align: center;
+}
+
+.time-wrapper{
+    font-size: 160px;
+}
+
+.slogan-wrapper{
+    margin-bottom:10px;
+}
+.today-wrapper{
+    margin:120px 0;
+}
+
+.today-wrapper .today{
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.today-wrapper .user-input{
+    font-size:30px;
+}
+
+.greet-wrapper{
+    margin-top:10px;
+    font-size:60px;
+}
+
+.slogan-wrapper{
+    margin-bottom:30px;
+}
+
+.today-input{
+    display: block;
+    width:100%;
+    margin:15px 0;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    line-height: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.today-focus{
+    display: block;
+    font-size:40px;
+} 
+
+.today-wrapper-unset-inner{
+    display: inline-block;
+}
+
+.today-wrapper-unset{
+    margin:120px 0;
+}
+
+.user-input-remove{
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.user-input-remove i{
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 1;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    opacity: 0;
+}
+
+.user-input-remove i:hover{
+    opacity: 1;
+}

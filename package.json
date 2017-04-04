@@ -1,0 +1,34 @@
+{
+  "name": "moment",
+  "version": "1.0.0",
+  "description": "Desktop todo list manager.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js",
+    "http-server": "http-server -c-1 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenayingying/moment.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Serena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serenayingying/moment/issues"
+  },
+  "homepage": "https://github.com/serenayingying/moment#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.25"
+  }
+}
